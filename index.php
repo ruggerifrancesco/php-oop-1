@@ -21,6 +21,16 @@
         }
     }
 
+    public function getDetails(): array {
+        return [
+            'name' => $this->name,
+            'description' => $this->description,
+            'rating' => $this->rating,
+            'language' => $this->language,
+            'poster' => $this->poster
+        ];
+    }
+
 ?>
 
 <!DOCTYPE html>
