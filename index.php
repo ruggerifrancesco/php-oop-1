@@ -6,7 +6,10 @@
         public $language;
         public $poster;
 
-        
+        public function __construct($name, $description) {
+            $this->name = $name;
+            $this->description = $description;
+        }
     }
 
 ?>
