@@ -1,7 +1,14 @@
 <?php 
     class Movie {
+        public $name;
+        public $description;
+        public $rating;
+        public $language;
+        public $poster;
+
         
     }
+
 ?>
 
 <!DOCTYPE html>
