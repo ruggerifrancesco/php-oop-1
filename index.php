@@ -1,10 +1,10 @@
 <?php 
     class Movie {
-        public $name;
-        public $description;
-        public $rating;
-        public $language;
-        public $poster;
+        public string $name;
+        public string $description;
+        public int $rating;
+        public string $language;
+        public string $poster;
 
         public function __construct($name, $description) {
             $this->name = $name;
