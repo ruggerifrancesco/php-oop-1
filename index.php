@@ -6,9 +6,18 @@
         public string $language;
         public string $poster;
 
-        public function __construct($name, $description) {
+        public function __construct(
+            string $name, 
+            string $description, 
+            int $rating, 
+            string $language, 
+            string $poster
+        ) {
             $this->name = $name;
             $this->description = $description;
+            $this->rating = $rating;
+            $this->language = $language;
+            $this->poster = $poster;
         }
     }
 
