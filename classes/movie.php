@@ -6,13 +6,14 @@
         public string $language;
         public string $poster;
         public array $genres;
+
         public function __construct(
             string $name, 
             string $description, 
             int $rating, 
             string $language, 
             string $poster,
-            array $genres,
+            array $genres = [],
         ) {
             $this->name = $name;
             $this->description = $description;
@@ -21,6 +22,7 @@
             $this->poster = $poster;
             $this->genres = $genres;
         }
+
         public function getDetails(): array {
             return [
                 'name' => $this->name,
