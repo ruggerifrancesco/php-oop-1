@@ -50,8 +50,7 @@
     echo "Rating: " . $details['rating'] . "\n";
     echo "Language: " . $details['language'] . "\n";
     echo "Poster: " . $details['poster'] . "\n";
-
-    
+    echo "Genres: " . implode(", ", $details['genres']) . "\n";
 
 ?>
 
